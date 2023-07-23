@@ -27,7 +27,11 @@ const NavList = ({ handleButtonClick, activeButton }) => {
 
   const handleCustomButtonClick = (buttonName) => {
     // Extract the current directory from the pathname (e.g., "/x")
-   
+     if(buttonName === "home" ){
+    router.push("/")
+   } else {
+    router.push(`/${buttonName}`)
+   }
     
    
     // Push the new URL to navigate to the desired route
