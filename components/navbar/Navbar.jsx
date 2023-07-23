@@ -7,7 +7,7 @@ import NavList from "@/components/navbar/NavList";
 import HamburgerNavList from "@/components/navbar/HamburgerNavList";
 import { useMediaQuery } from "react-responsive";
 import { useRouter, usePathname } from "next/navigation";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+ 
  
 const Navbar = () => {
   const router = useRouter();
